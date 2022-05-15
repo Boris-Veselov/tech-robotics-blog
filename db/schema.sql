@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS trb_db;
+
+CREATE DATABASE trb_db;
