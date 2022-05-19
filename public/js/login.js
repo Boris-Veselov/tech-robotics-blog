@@ -13,6 +13,8 @@ async function signupFormHandler(event) {
             }),
             headers: { 'Content-Type': 'application/json' }
         });
+
+        // login response
         if (response.ok) {
             alert('You can log in now!');
             document.location.reload();
