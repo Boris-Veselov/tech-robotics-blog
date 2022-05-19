@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 110%;
+    padding: 5px;
+    background-color: #ece5e5;
+    margin: 5px;
+    font-family: monospace, serif;
+    color: rgb(50, 151, 168);
+  }
+
+  textarea, input {
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid #3486eb;
+  }
+  
+  textarea:focus, input:focus {
+    outline: none;
+    border: 1px solid #3486eb;
+  }
+  
+  textarea {
+    min-width: 110%;
+    min-height: 100px;
+  }
+
+  header {
+    border-bottom: 1px solid #3486eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+  }
+  
+  header h1 {
+    font-size: 1em;
+  }
+  
+  main {
+    flex: 1;
+    padding: 1% 2%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #a84343;
+    transition: color .1s;
+  }
+  
+  a:hover {
+    color: rgb(50, 151,168);
+  }
+  
+  button {
+    background-color: #a84343;
+    border: 0;
+    padding: 1%;
+    color: white;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #3486eb;
+  }
+  
+  form > div {
+    margin-bottom: 2%;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  .wrapper {
+    width: 100%;
+    min-height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comment-form {
+    margin-bottom: 10%;
+  }
+  
+  .comment {
+    padding: 4%;
+    margin-bottom: 4%;
+  }
+  
+  .new-post-form input {
+    width: 300px;
+  }
+  
+  .edit-post-form {
+    margin-bottom: 5%;
+  }
+  
+  .btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #225ca3;
+    font-size: 100%;
+    transition: color .1s;
+    margin-left: 16px;
+  }
+  
+  .btn-no-style:hover {
+    background: none;
+    color: #3486eb;
+  }
+  
+  .delete-post-btn {
+    background-color: #a84343;
+  }
+  
+  .delete-post-btn:hover {
+    background-color: #a84343;
+  }
+  
+  .post {
+    margin-bottom: 4%;
+    line-height: 150%;
+  }
+  
+  .post .title span {
+    font-size: 90%;
+    color: #2c2a2a;
+  }
+  
+  .edit-link {
+    display: block;
+    margin: -1.5% 0 2% 0;
+  }
+  
+  footer {
+    background-color: rgb(50, 151, 168);
+    color: black;
+    display: flex;
+    justify-content: left;
+    padding: 1%;
+    font-size: 90%;
+  }
