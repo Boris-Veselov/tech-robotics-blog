@@ -26,6 +26,7 @@ SO THAT I and other developers can publish articles, posts and share ideas
 
 # Website
 
+https://boris-veselov.github.io/tech-robotics-blog/
 
 # Screenshot
 
